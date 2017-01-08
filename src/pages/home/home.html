@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar class="navbar">
+    <ion-title>
+      Number Tracker
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="content">
+
+    <ion-list no-lines>
+
+    <ion-item id="input">
+      <ion-label floating>Number</ion-label>
+      <ion-input type="number" [(ngModel)]="number"></ion-input>
+    </ion-item>
+
+      <button ion-button color="primary" (click)="locate()" block>Locate...</button>
+
+     
+
+    </ion-list>
+
+</ion-content>
